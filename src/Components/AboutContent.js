@@ -19,7 +19,7 @@ Treated 200 + patient in clinical practice..
 Also have 6 months experience from "Rohtak PGIMS"
 
 </p>
-
+{/* my self gautam */}
 
         <Link to="/Contact" className="btn"> Contact </Link>
           <div>
