@@ -7,7 +7,6 @@ const Form = () => {
    return (
 
       <><div className="form">
-         <div className="left">
             <form action="https://formspree.io/f/mleyrpky" method="POST">
                <label>Name</label>
                <input name="Name" type="text"></input>
@@ -24,15 +23,6 @@ const Form = () => {
                <button className="btn" type="submit">Submit</button>
             </form>
          </div>
-
-
-
-
-
-
-
-
-      </div>
 
          <div class="mapouter">
             <div class="gmap_canvas">

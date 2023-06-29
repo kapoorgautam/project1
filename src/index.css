@@ -6,7 +6,7 @@
   font-family: 'outfit' ,sans-serif; 
 }
 body{
-  background-color: #eac8a0;
+  background-color: #9AD0EC;
 }
 h1,h4,p,a
 {color: white;
@@ -20,7 +20,7 @@ ul{
   padding: 12px 32px;
   font-size: 1rem;
  text-transform: uppercase;
-  background: rgb(248, 217, 15);
+  background: #C2DEDC;
   color: #222;
   border: 1px solid #fff;
  font-weight: 600;

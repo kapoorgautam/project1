@@ -1,4 +1,4 @@
-.acard {
+.acard1 {
     width: 100%;
     padding: 6rem 1rem;
     background: transparent;}
@@ -8,11 +8,12 @@
     padding: 0  0 2rem 0;
 }
 .acard1-container{
-    max-width: 1140px;
-    margin: auto;
+    max-width: 30px;
+    margin-left: 60px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    grid-gap:40px; 
+    grid-gap:40px;
+ 
 }
  .acard1:hover{
 background-color: rgb(26, 25, 25); 

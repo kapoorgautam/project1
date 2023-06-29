@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 import "./AboutContentStyles.css"
-import pro2 from "../assets/project2.jpg"
-import pro4 from "../assets/project4.webp"
+import dr from "../assets/dr.jpg"
 import React from 'react'
 import "./AboutcardStyles.css";
 
@@ -11,71 +10,60 @@ const AboutContent = () => {
     <>
  
     <div className="about">
-      <div className="left">
-        <h1> why choose us...</h1>
+      <div className="abouttext">
+        <h1>Optima physiocare trusts</h1>
         <p>
         Currently working in Jivisha advanced medical centre,paschim vihar,Delhi...
 Treated 200 + patient in clinical practice..
 Also have 6 months experience from "Rohtak PGIMS"
 
 </p>
-{/* my self gautam */}
-
-        <Link to="/Contact" className="btn"> Contact </Link>
+<p> Our Physiotherapist.. </p>
+<h3>Dr. Nikhil kapoor</h3>    
+  </div>
+      <div className="aboutimg">
+        <img src= {dr} alt="true" />
+      </div>
           <div>
           <div className="acard">
-       <h1 className="plans-heading">SERVICES WE PROVIDE</h1>
-        <div className="card1-container">
+       
+        <div className="acard1-container">
        
             <div className="acard1">
-                <h3> HOME SERVICE</h3>
-                <span className="bar"></span>
-                <p className="btc"> Rs.500</p>
-                
-                <p> Responsive Design </p>
-            
+                <h3>Expert Physiotherapist</h3>
+                <p>Team certified & trained in latest advanced physio techniques</p>
             </div>
             <div className="acard1">
-                <h3> CLINICSL SERVICE </h3>
-                <span className="bar"></span>
-                <p className="btc"> rs.300</p>
-               
-                <p> Responsive Design </p>
+                <h3> Highly Rated </h3>
+                 <p>+4.8 Star Rating for quality physiotherapy care and service</p>
+              </div>
+            <div className="acard1">
+                <h3> Unique Approach </h3>
+                <p>Combination of manual therapy and exercise therapy</p>
               
             </div>
             <div className="acard1">
-                <h3> ONLINE SERVICE </h3>
-                <span className="bar"></span>
-                <p className="btc"> Rs.200</p>
-                
-                <p> Responsive Design </p>
+                <h3>Personalized Care </h3>
+                <p> Unique treatment for your specific ailment </p>
+
               
             </div>
             <div className="acard1">
-                <h3> ONLINE SERVICE </h3>
-                <span className="bar"></span>
-                <p className="btc"> Rs.200</p>
-                
-                <p> Responsive Design </p>
+                <h3> RIGHT INFRASTRUCTURE </h3>  
+                <p> World-class equipment and modalities</p>
               
             </div>
-            <div className="acard1">
-                <h3> ONLINE SERVICE </h3>
-                <span className="bar"></span>
-                <p className="btc"> Rs.200</p>
-                
-                <p> Responsive Design </p>
-              
-            </div>
-              
-              
-        </div>
       
     </div>
           </div>
 
+         < div className="aboutreq">
+
+        <h1>Get your appointment right now...</h1>
+        <div className="aboutb">   <Link to="/Contact" className="btn"> Contact </Link></div>
+       
       </div>
-      <div className="right">
+      {/* <div className="right">
         <div className="img-container">
           <div className="img-stack top">
             <img src={pro4} className="img" alt="true" />
@@ -83,10 +71,9 @@ Also have 6 months experience from "Rohtak PGIMS"
           <div className="img-stack bottom">
             <img src={pro2} className="img" alt="true" />
           </div>
-        </div>
-      </div>
-
-
+        </div> */}
+      {/* </div> */}
+</div>
     </div></>
 
   )
