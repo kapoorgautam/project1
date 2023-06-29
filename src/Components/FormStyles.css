@@ -1,0 +1,37 @@
+
+
+label{
+    color: rgb(10, 9, 9);
+}
+
+    .form .left{
+        text-align: center;
+        margin: auto;
+        padding: 1rem ;
+        max-width: 550px;
+        display: flex;
+        flex-direction: column;
+       
+    }
+  form{
+            display: flex;
+            flex-direction: column;
+            max-width: 800px; 
+        }
+ 
+ 
+form input,form textarea{
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    
+    background-color: white;
+    border-color: rgba(255, 255, 255, 0.1);
+    color: #070606;
+    }
+
+   
+
+    .mapouter{position:relative;text-align:right;height:80vh;width:100%; padding: 2rem; }
+.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+  
