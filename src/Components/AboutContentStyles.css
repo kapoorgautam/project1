@@ -55,9 +55,5 @@ height: 100%;
                     margin: auto;
                     display: flex;
                         flex-wrap: wrap;
-                     }
-                     .about .aboutimg{
-                        flex-wrap: wrap;
-                        margin: auto;
-                     }
+                 }
             }
