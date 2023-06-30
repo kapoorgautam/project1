@@ -15,14 +15,14 @@ const ProjectCardData = [
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Neck Pain/csrvical pain",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:slipeddisk,
-        title: "Slipped Disc",
+        title: "Herniated Disc/PIVD",
         text:"",
         view:"./Tneckpain.js",
         
@@ -36,7 +36,7 @@ const ProjectCardData = [
     },
     {
         imgsrc:head,
-        title: " Headaches With Neck Pain",
+        title: " Stroke rehabilitation",
         text:"",
         view:"./Tneckpain.js",
         
@@ -58,63 +58,63 @@ const ProjectCardData = [
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Tennis Elbow",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Numbness/ Tingling in arms and hands",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Difficulties in walking",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "postural correction",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Neuro rehabilitation",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Frozen shoulder treatment ",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Paralysis treatment",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Cupping Therapy",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain",
+        title: "Dry Needling Therapy ",
         text:"",
         view:"/Contact",
       
