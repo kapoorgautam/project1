@@ -17,7 +17,7 @@ height: 100%;
         font-size: 40px;
         margin: 1rem 0;
     }
-    .about .abouttext .aboutimg{
+    .about .aboutimg{
         width: 100%;
         display: flex;
         align-items: center;
@@ -43,21 +43,21 @@ height: 100%;
                    margin-bottom: 3rem;
                    padding: 1rem 2rem;
                   background: #FD8A8A;
+                  position: absolute;
                            }
  .aboutreq .aboutb{
                 text-align: center;
                 margin: 2rem 2rem;
             }
-            @media screen and (max-width: 740px) {
+            @media screen and (max-width: 640px) {
                  .about .acard1-container {
                     max-width: 80%;
                     margin: auto;
                     display: flex;
                         flex-wrap: wrap;
-
-                        
-                    
-                    
-            
-                }
+                     }
+                     .about .aboutimg{
+                        flex-wrap: wrap;
+                        margin: auto;
+                     }
             }
