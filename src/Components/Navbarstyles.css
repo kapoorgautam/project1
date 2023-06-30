@@ -15,15 +15,15 @@
 }
 .logo{
   
-    max-width: 200px;
+    max-width: 270px;
     
 }
 .logowa{
-    width: 100px;
+    width: 80px;
     position: fixed;
     bottom: 10px;
-    top: 40vh;
-    right: 20px;
+    top: 20vh;
+    right: 10px;
     z-index: 7;
     padding-right: 1rem;
 
