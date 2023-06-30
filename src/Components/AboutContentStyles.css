@@ -17,7 +17,13 @@ height: 100%;
         font-size: 40px;
         margin: 1rem 0;
     }
-
+    .about .abouttext .aboutimg{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
 
 
     .about .acard1 {
@@ -32,18 +38,26 @@ height: 100%;
             grid-gap:40px; }
 
             .aboutreq{
-                width: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-wrap: wrap;
-                height: 100%;
-                font-weight: 600;
-                font-size: 25px;
-                background: #FD8A8A;
-            }
-
-            .aboutreq .aboutb{
+                width: 60%;
+                text-align: center;
+                   margin-bottom: 3rem;
+                   padding: 1rem 2rem;
+                  background: #FD8A8A;
+                           }
+ .aboutreq .aboutb{
                 text-align: center;
                 margin: 2rem 2rem;
+            }
+            @media screen and (max-width: 740px) {
+                 .about .acard1-container {
+                    max-width: 80%;
+                    margin: auto;
+                    display: flex;
+                        flex-wrap: wrap;
+
+                        
+                    
+                    
+            
+                }
             }

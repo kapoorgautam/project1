@@ -55,24 +55,16 @@ Also have 6 months experience from "Rohtak PGIMS"
             </div>
       
     </div>
-          </div>
+         
+      
+</div>
+</div>
 
-         < div className="aboutreq">
+< div className="aboutreq">
 
-        <h1>Get your appointment right now...</h1>
-        <div className="aboutb">   <Link to="/Contact" className="btn"> Contact </Link></div>
-       
-      </div>
-      {/* <div className="right">
-        <div className="img-container">
-          <div className="img-stack top">
-            <img src={pro4} className="img" alt="true" />
-          </div>
-          <div className="img-stack bottom">
-            <img src={pro2} className="img" alt="true" />
-          </div>
-        </div> */}
-      {/* </div> */}
+<h1>Get your appointment right now...</h1>
+<div className="aboutb">   <Link to="/Contact" className="btn"> Contact </Link></div>
+
 </div>
     </div></>
 
