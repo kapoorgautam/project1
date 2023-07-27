@@ -1,85 +1,70 @@
 import backpain from "../assets/backpain.jpg"
-import spinal from "../assets/spinal.jpeg"
 import neckpain from "../assets/neckpain.webp"
 import slipeddisk from "../assets/slipeddisk.jpeg"
-import muscle from "../assets/lowermuscle.jpeg"
-import head from "../assets/headache.jpeg"
+import Gaittraining from "../assets/Gaittraining.jpg"
+import Postural from "../assets/Posturalcorrectionexercises.jpg"
+import Dry from "../assets/Dryneedlingtherapy.jpg"
+import Cupping from "../assets/Cuppingtherapy.jpg"
+import elbow from "../assets/Tenniselbow.jpg"
+import Cervical from "../assets/Cervicalrediculopathy.jpg"
+import Frozen from "../assets/Frozenshoulder.jpg"
+import stroke from "../assets/Strokerehabilitation.jpg"
+
+
 
 const ProjectCardData = [
     {
         imgsrc:backpain,
-        title: "Back Pain",
+        title: "Back Pain/ Stiff back",
         text:"",
         view: "/Contact",
         
     },
     {
         imgsrc:neckpain,
-        title: "Neck Pain/csrvical pain",
+        title: "Neck Pain/cervical pain",
         text:"",
         view:"/Contact",
       
     },
     {
         imgsrc:slipeddisk,
-        title: "Herniated Disc/PIVD",
+        title: "Slipped disc Treatment",
         text:"",
-        view:"./Tneckpain.js",
+        view:"./Contact",
         
     },
     {
-        imgsrc:muscle,
-        title: "Lower Back muscle strain",
-        text:".",
-        view:"./Tneckpain.js",
-       
+        imgsrc:Cervical ,
+        title: " Cervical rediculopathy",
+        text:"",
+        view:"./Contacts",
+        
     },
     {
-        imgsrc:head,
+        imgsrc:stroke,
         title: " Stroke rehabilitation",
         text:"",
-        view:"./Tneckpain.js",
+        view:"./Contact",
         
     },
     {
-        imgsrc:spinal,
-        title: " Spinal Canal Stenosis",
-        text:"",
-        view:"./Tneckpain.js",
-        
-    
-    },
-    {
-        imgsrc:neckpain,
-        title: "Neck Pain",
+        imgsrc:elbow,
+        title: "Tennis elbow/ Golfer's elbow",
         text:"",
         view:"/Contact",
       
     },
     {
-        imgsrc:neckpain,
-        title: "Tennis Elbow",
+        imgsrc:Gaittraining,
+        title: "Gait Tranning",
         text:"",
         view:"/Contact",
       
     },
     {
-        imgsrc:neckpain,
-        title: "Numbness/ Tingling in arms and hands",
-        text:"",
-        view:"/Contact",
-      
-    },
-    {
-        imgsrc:neckpain,
-        title: "Difficulties in walking",
-        text:"",
-        view:"/Contact",
-      
-    },
-    {
-        imgsrc:neckpain,
-        title: "postural correction",
+        imgsrc:Postural,
+        title: "Postural correction exercises",
         text:"",
         view:"/Contact",
       
@@ -92,33 +77,28 @@ const ProjectCardData = [
       
     },
     {
-        imgsrc:neckpain,
+        imgsrc:Frozen,
         title: "Frozen shoulder treatment ",
         text:"",
         view:"/Contact",
       
     },
+
     {
-        imgsrc:neckpain,
-        title: "Paralysis treatment",
+        imgsrc:Cupping,
+        title: "Cupping Therapy (Dry/wet cupping)",
         text:"",
         view:"/Contact",
       
     },
     {
-        imgsrc:neckpain,
-        title: "Cupping Therapy",
-        text:"",
-        view:"/Contact",
-      
-    },
-    {
-        imgsrc:neckpain,
+        imgsrc:Dry,
         title: "Dry Needling Therapy ",
         text:"",
         view:"/Contact",
       
     }
+
 ];
 
 export default ProjectCardData

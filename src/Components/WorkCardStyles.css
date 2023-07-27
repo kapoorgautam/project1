@@ -14,15 +14,24 @@
 .project-card{
     background:#F4C7AB;
     padding: 1.2rem 1rem;
+    border-radius: 20px;
 
 }
 .project-card img{
     width: 100%;
+    border-radius: 10px;
+    height: 20vh;
 }
+/* .project-card:hover{
+    background: rgb(242, 247, 245);
+    color: white;
+} */
+
 .project-title{
     color: rgb(9, 9, 9);
     padding: 1rem 0 ;
 }
+
 .project-details p {
     padding-bottom :1rem ;
     font-size: 1.1rem;
@@ -31,6 +40,7 @@
 .pro-btns{
     display: flex;
     justify-content: space-between;
+    align-items: bottom;
     padding: 0%;
 }
 .pro-btns .btn{

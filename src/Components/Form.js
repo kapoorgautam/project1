@@ -1,12 +1,25 @@
 import "./FormStyles.css"
 import React from 'react'
+import d from "../assets/dr-c.jpg"
+// import p from "../assets/pt2.jpg"
+
 
 
 
 const Form = () => {
    return (
 
-      <><div className="form">
+      <>
+       <h2>We are here to help you...🩺</h2>
+       <div className="form-container">
+      <div className="l-form">
+      <img src= {d} alt="true" />
+      {/* <img src= {p} alt="true" /> */}
+      {/* <h2>We are here to help you...🩺</h2> */}
+      </div>
+      
+      
+      <div className="form">
             <form action="https://formspree.io/f/mleyrpky" method="POST">
                <label>Name</label>
                <input name="Name" type="text"></input>
@@ -22,6 +35,7 @@ const Form = () => {
                <textarea name="Condition" rows="6" placeholder="Type your Condition HERE!" />
                <button className="btn" type="submit">Submit</button>
             </form>
+         </div>
          </div>
 
          <div class="mapouter">

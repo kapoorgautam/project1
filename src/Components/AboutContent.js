@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom"
-import "./AboutContentStyles.css"
+import "./AboutContentStyles.css";
 import dr from "../assets/dr.jpg"
+import neuroweb from "../assets/neuroweb.jpg"
 import React from 'react'
 import "./AboutcardStyles.css";
 
 
 const AboutContent = () => {
+
+  
   return (
     <>
  
@@ -19,10 +22,19 @@ Also have 6 months experience from "Rohtak PGIMS"
 
 </p>
 <p> Our Physiotherapist.. </p>
-<h3>Dr. Nikhil kapoor</h3>    
+{/* <h3>Dr. Nikhil kapoor</h3>     */}
   </div>
-      <div className="aboutimg">
+  <div className="container">
+      <div className="leftaboutimg">
         <img src= {dr} alt="true" />
+        <h1>Dr. Nikhil kapoor</h1>
+        <h2> Currently working in Jivisha advanced medical centre,paschim vihar,Delhi...
+Treated 200 + patient in clinical practice..
+        </h2>
+      </div>
+      <div className="rightaboutimg">
+        <img src= {neuroweb} alt="true" />
+      </div>
       </div>
           <div>
           <div className="acard">

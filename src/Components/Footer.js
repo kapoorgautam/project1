@@ -25,8 +25,8 @@ const Footer = () => {
             <h4><FaMailBulk size ={20} style={{color:"white" ,marginRight: "2rem"}}/> nikhilkapoor9540@gmail.com</h4>
          </div>
          <div className="social">
-        <div>
-        <Link to="https://wa.me/918447646815?text=hello">
+        <div className="fab">
+        <Link to="https://www.facebook.com/profile.php?id=100094770625926&mibextid=ZbWKwL">
       <FaFacebook size ={30} style={{color:"white" ,marginRight: "1rem"}} />
       </Link>
       <Link to="https://wa.me/918447646815?text=hello">
